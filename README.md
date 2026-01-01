@@ -4,8 +4,9 @@ Bring back the CRT cablevision experience with scheduled channels and commercial
 TVBOX 2.02 — “Live TV” Scheduler + MPV Tuner 
 
 TVBOX is a “live TV” style player built on MPV plus a pre-generated schedule.
-Drop your old TV recordings into a predictable folder layout, build an index (durations + labels),
-generate 7 days of schedules, then run tvbox.py to “tune” channels like a TV.
+Drop your old TV recordings or purchased media into a predictable folder layout, 
+build an index (durations + labels), generate 7 days of schedules, then run tvbox.py
+to “tune” channels like a TV.
 
 This repo is structured as a portable bundle: Python, MPV, ffprobe, and
 AutoHotkey are expected under /runtime/ (placeholders included)
@@ -185,3 +186,23 @@ KNOWN ISSUES
 --------------------------------------------------
 
 - The tvbox.py occasionally does not send the next video, resulting in 'No File' via MPV. It points to a pipe or write issue, that cannot yet be resolves. Two band-aids are added to address: scheduled 'channel change' every 30 minutes, triggered by the keep_alive.ahk AutoHotkey script, and a parent 'watchdog' that monitors MPV for continuous playback, then reloads if it fails. If you can find of a better solution, let me know!
+
+--------------------------------------------------
+CONTENT NOTICE
+--------------------------------------------------
+
+TVBOX does not provide, download, stream, or distribute any media content.
+
+This software is intended to be used only with video files that you own or
+are legally authorized to use, such as:
+- personal recordings,
+- lawfully purchased and ripped media (where permitted by local law),
+- home videos or other original works.
+
+Users are solely responsible for ensuring that their use of this software
+complies with all applicable copyright laws and licensing agreements in their
+jurisdiction.
+
+Nothing in this project is intended to encourage or facilitate copyright
+infringement. The authors make no claims regarding fair use, and this software
+is provided as a general-purpose media scheduling and playback tool only.
