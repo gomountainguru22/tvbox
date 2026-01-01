@@ -57,14 +57,14 @@ ADDITIONAL FILES / BINARIES NEEDED
 --------------------------------------------------
 
 root/runtime/
-  python/ (download and extract python-3.5.0b1-embed-amd64.zip to this folder)
-  ffmpeg/bin/ (download and extract ffprobe.exe here)
-  ffmpeg/bin/ (download and extract ffmpeg.exe here)
-  mpv/ (download and extract mpv-x86_64-20251214-git-f7be2ee.7z here)
-  mpv/portable_config 
-	input.conf (retain the version provided in this repo)
-	mpv.conf (retain the version provided in this repo)
-  ahk/ (install AutoHotkey_2.0.19_setup.exe, then copy AutoHotkey64.exe to this folder)
+	python/ (download and extract python-3.5.0b1-embed-amd64.zip to this folder)
+	ffmpeg/bin/ (download and extract ffprobe.exe here)
+	ffmpeg/bin/ (download and extract ffmpeg.exe here)
+	mpv/ (download and extract mpv-x86_64-20251214-git-f7be2ee.7z here)
+  	mpv/portable_config 
+		input.conf (retain the version provided in this repo)
+		mpv.conf (retain the version provided in this repo)
+  	ahk/ (install AutoHotkey_2.0.19_setup.exe, then copy AutoHotkey64.exe to this folder)
 
 --------------------------------------------------
 QUICK START
@@ -148,13 +148,13 @@ Example slots.json:
 {
   "default_folder": "evening",
   "slots": [
-    {"name": "overnight", "start": "00:00", "end": "06:00", "folder": "overnight"},
-    {"name": "morning",   "start": "06:00", "end": "09:00", "folder": "morning"},
-    {"name": "daytime",   "start": "09:00", "end": "15:00", "folder": "daytime"},
-    {"name": "afternoon", "start": "15:00", "end": "18:00", "folder": "afternoon"},
-    {"name": "evening",   "start": "18:00", "end": "21:00", "folder": "evening"},
-    {"name": "latenight", "start": "21:00", "end": "24:00", "folder": "latenight"}
-  ]
+	{"name": "overnight", "start": "00:00", "end": "06:00", "folder": "overnight"},
+	{"name": "morning",   "start": "06:00", "end": "09:00", "folder": "morning"},
+	{"name": "daytime",   "start": "09:00", "end": "15:00", "folder": "daytime"},
+	{"name": "afternoon", "start": "15:00", "end": "18:00", "folder": "afternoon"},
+	{"name": "evening",   "start": "18:00", "end": "21:00", "folder": "evening"},
+	{"name": "latenight", "start": "21:00", "end": "24:00", "folder": "latenight"}
+	]
 }
 
 Rules:
