@@ -4,7 +4,7 @@ Bring back the CRT cablevision experience with scheduled channels and commercial
 TVBOX 2.02 — “Live TV” Scheduler + MPV Tuner 
 
 TVBOX is a “live TV” style player built on MPV plus a pre-generated schedule.
-Drop shows into a predictable folder layout, build an index (durations + labels),
+Drop your old TV recordings into a predictable folder layout, build an index (durations + labels),
 generate 7 days of schedules, then run tvbox.py to “tune” channels like a TV.
 
 This repo is structured as a portable bundle: Python, MPV, ffprobe, and
